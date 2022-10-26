@@ -3,9 +3,11 @@
 
 /**
  * main - check the code
- * print_array - prints array in reverse
+ *
+ * print_array - prints array
+ *
  * @a: an array of integers
- * @n: the number of elments to swap
+ * @n: the number of elements to swap
  *
  * Return: nothing.
  */
@@ -28,6 +30,8 @@ void print_array(int *a, int n)
 
 /**
  * main - check the code
+ *
+ * print_array - prints an array
  *
  * Return: Always 0.
  */
