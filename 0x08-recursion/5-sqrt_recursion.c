@@ -1,46 +1,30 @@
 #include "main.h"
 
-/**
- * _sqrt_recursion_wrapper - a wrapper that does the recursion bit
- *
- * @n : input number
- * @min: minimum number to guess
- * @max: maximum number to guess
- *
- *  Return: square root of @n or -1
- */
-int _sqrt_recursion_wrapper(int n, int min, int max)
-{
-	int guess, guess_squared;
-
-	guess = (min + max) / 2;
-	guess_squared = guess * guess;
-
-	if (guess_squared == n)
-		return (guess);
-	else if (min == max)
-		return (-1);
-	else if (guess_squared < n)
-		return (_sqrt_recursion_wrapper(n, guess + 1, max));
-	else
-		return (_sqrt_recursion_wrapper(n, min, guess - 1));
-}
+int _sqrt(int, int);
 
 /**
- * _sqrt_recursion - a function that returns the natural squareroot of a number
- *
- * @n: input number
- *
- * Return: square root
+ * _sqrt_recursion -> sqrt using recursion
+ * @n: parameter to be sqrt
+ * Return: square root of a number
  */
 int _sqrt_recursion(int n)
 {
-	if (n == 1)
-		return (1);
-	else if (n == 0)
-		return (0);
-	else if (n < 0)
+	return (_sqrt(n, 1));
+}
+
+/**
+ * _sqrt - recursive square root
+ * @n: number
+ * @i: iterator
+ * Return: a Number
+ */
+int _sqrt(int n, int i)
+{
+	int square = i * i;
+
+	if (square > n)
 		return (-1);
-	else
-		return (_sqrt_recursion_wrapper(n, 1, n));
+	if (square == n)
+		return (i);
+	return (_sqrt(n, i + 1));
 }
