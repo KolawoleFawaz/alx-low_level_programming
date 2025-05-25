@@ -101,7 +101,7 @@ Ensure that the betty style checker is installed and properly configured
 
 ## Author 
 Azeez Fawaz Kolawole
-- [Github](https://github.com/KolawoleFawaz)
+- Github: [@kolawoleFawaz](https://github.com/KolawoleFawaz)
 
 ## License
 This project is part of the Alx software Engineering Program
