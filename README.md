@@ -72,16 +72,19 @@ Here's an overview of the projects included in this repository:
 ## Getting Started
 
 To compile and run any of the C programs:
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/KolawoleFawaz/alx-low_level_programming.git
 
-1. Navigate to the project directory:
+2. Navigate to the project directory:
    ```bash
    cd 0x00-hello_world
 
-2. Compile the C file using gcc:
+3. Compile the C file using gcc:
    ```bash
    gcc -Wall -Wextra -Werror -pedantic filename.c -o output
 
-3. Run the executable:
+4. Run the executable:
    ```bash
    ./output
 
