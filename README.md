@@ -80,12 +80,12 @@ To compile and run any of the C programs:
 
 Replace the filename.c with the actual file name and output with your desired executable name.
 
-#Tools & Technologies 
--language: C (c89 standard)
--compiler: gcc with flags -wall -wextra -werror -pedantic
--debugger: gdb
--memory leak checker: Valgrind
--code style checker: Betty
+## Tools & Technologies 
+- language: C (c89 standard)
+- compiler: gcc with flags -wall -wextra -werror -pedantic
+- debugger: gdb
+- memory leak checker: Valgrind
+- code style checker: Betty
 -Operating System: Ubuntu 20.04 LTS.
 
 
