@@ -7,7 +7,7 @@ This repository contains a series of projects completed as part of the **ALX Sof
 
 ## 📚 Table of Contents
 
-- [About](##about)
+- [About](#about)
 - [Projects](#projects)
 - [Getting Started](#getting-started)
 - [Tools & Technologies](#tools--technologies)
@@ -84,10 +84,27 @@ Replace the filename.c with the actual file name and output with your desired ex
 
 ## Tools & Technologies 
 - language: C (c89 standard)
-- compiler: gcc with flags -wall -wextra -werror -pedantic
-- debugger: gdb
-- memory leak checker: Valgrind
-- code style checker: Betty
+- compiler: ```gcc``` with flags ```-wall -wextra -werror -pedantic```
+- debugger: ```gdb```
+- memory leak checker: ```Valgrind```
+- code style checker: ```Betty```
 -Operating System: Ubuntu 20.04 LTS.
+
+---
+
+## Coding Style
+all code adheres to betty coding style guidelines ensuring readability. To check style:
+```bash
+betty filename.
+```
+Ensure that the betty style checker is installed and properly configured
+
+## Author 
+Azeez Fawaz Kolawole
+[Github](https://github.com/KolawoleFawaz)
+
+## License
+This project is part of the Alx software Engineering Program
+
 
 
