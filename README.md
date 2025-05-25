@@ -80,6 +80,8 @@ To compile and run any of the C programs:
 
 Replace the filename.c with the actual file name and output with your desired executable name.
 
+---
+
 ## Tools & Technologies 
 - language: C (c89 standard)
 - compiler: gcc with flags -wall -wextra -werror -pedantic
