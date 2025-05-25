@@ -70,3 +70,22 @@ To compile and run any of the C programs:
    ```bash
    cd 0x00-hello_world
 
+2. Compile the C file using gcc:
+   ```bash
+   gcc -Wall -Wextra -Werror -pedantic filename.c -o output
+
+3. Run the executable:
+   ```bash
+   ./output
+
+Replace the filename.c with the actual file name and output with your desired executable name.
+
+#Tools & Technologies 
+-language: C (c89 standard)
+-compiler: gcc with flags -wall -wextra -werror -pedantic
+-debugger: gdb
+-memory leak checker: Valgrind
+-code style checker: Betty
+-Operating System: Ubuntu 20.04 LTS.
+
+
