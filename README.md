@@ -5,7 +5,7 @@ This repository contains a series of projects completed as part of the **ALX Sof
 
 ---
 
-## 📚 Table of Contents
+## Table of Contents
 
 - [About](#about)
 - [Projects](#projects)
@@ -16,7 +16,7 @@ This repository contains a series of projects completed as part of the **ALX Sof
 
 ---
 
-## 🧠 About
+## About
 
 This repository showcases my journey through the ALX curriculum, covering essential topics such as:
 
@@ -36,7 +36,7 @@ Each project is designed to build upon the previous, reinforcing concepts and in
 
 ---
 
-## 📁 Projects
+## Projects
 
 Here's an overview of the projects included in this repository:
 
@@ -62,7 +62,7 @@ Here's an overview of the projects included in this repository:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 To compile and run any of the C programs:
 
@@ -101,10 +101,7 @@ Ensure that the betty style checker is installed and properly configured
 
 ## Author 
 Azeez Fawaz Kolawole
-[Github](https://github.com/KolawoleFawaz)
+- [Github](https://github.com/KolawoleFawaz)
 
 ## License
 This project is part of the Alx software Engineering Program
-
-
-
