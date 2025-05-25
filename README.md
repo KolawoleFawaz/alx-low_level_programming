@@ -7,7 +7,7 @@ This repository contains a series of projects completed as part of the **ALX Sof
 
 ## 📚 Table of Contents
 
-- [About](#about)
+- [About](##about)
 - [Projects](#projects)
 - [Getting Started](#getting-started)
 - [Tools & Technologies](#tools--technologies)
