@@ -57,6 +57,13 @@ Here's an overview of the projects included in this repository:
 - `0x0E-structures_typedef`: Working with structures and typedefs.
 - `0x0F-function_pointers`: Utilizing function pointers in C.
 - `0x12-singly_linked_lists`: Implementing and manipulating singly linked lists.
+- `0x13-more_singly_linked_lists`: Advanced manipulation of singly linked lists — reversing, finding loops, and more.
+- `0x15-file_io`: Low-level file operations in C — working directly with file descriptors and permissions.
+- `0X17-doubly_linked_lists`: Implementation of doubly linked lists with operations like insertion, deletion, and traversal in both directions.
+- `0x18-dynamic_libraries`: Creating and using dynamic/shared libraries (.so files) in C.
+- `0x1C-makefile`: Automating C project compilation using Makefile — writing rules and targets for clean builds.
+- `0X1E-search_algorithms`: Implementing efficient search algorithms like binary search, jump search, and exponential search.
+- `simple_shell`: A custom UNIX shell built in C. Supports command parsing, execution, built-ins like cd, exit
 
 *Note: Each directory contains its own `README.md` file with detailed information about the tasks and concepts covered.*
 
